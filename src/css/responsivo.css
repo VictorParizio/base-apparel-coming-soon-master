@@ -1,0 +1,79 @@
+@media(max-width: 1240px) {   
+    .component {
+        flex-direction: column-reverse;
+        width: 350px;
+        position: relative;
+    }
+
+    .component .modelo {
+        background: url(../images/hero-mobile.jpg) no-repeat;
+        background-size: 350px;
+        height: 235px;
+        width: 350px;
+        position: absolute;
+        top: 60px;
+    }
+
+    .component .info {
+        background: none;
+        width: 350px;
+        padding: 20px 0;
+    }
+
+    .component .info .logo {
+        width: 100px;
+        margin-left: 30px;
+    }
+
+    .component .info .title {
+        text-align: center;
+        font-size: 4rem;
+        line-height: 40px;
+        width: 350px;
+        margin-top: 280px;
+    }
+
+    .component .info .title span {
+        font-size: 4rem;
+        font-weight: 300;
+        color: var(--text);
+    }
+
+    .component .info .description {
+        text-align: center;
+        padding: 0 40px;
+        width: 350px;
+        margin-top: 15px;
+    }
+
+    .component .info .cadastro{
+        padding: 30px 0 50px;
+    }
+
+    .component .info .cadastro .campo {
+        margin-left: 25px;
+        width: 300px;
+    }
+
+    .component .info .cadastro .enviar {
+        position: absolute;
+        top: 29px;
+        right: 25px;
+    }
+
+     /* -------------------------- */
+
+     .component .info #validacao .ico-err{
+        top: 40px;
+        right: 115px;
+    }
+
+    .component .info #validacao .mensagem-erro {
+        color: var(--link);
+        padding: 4px 50px;
+    }
+
+    .component .info .attribution {
+        margin: 10px 25px;
+    }
+}

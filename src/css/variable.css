@@ -1,0 +1,14 @@
+:root {
+    --body: hsl(0, 100%, 98%);
+    --text: hsl(0, 36%, 70%);
+    --link: hsl(0, 93%, 68%);
+    --title: hsl(0, 6%, 24%);
+
+    /* Gradients, Linear, 135deg */
+
+    --degradeAtivo1: hsl(0, 92%, 91%);
+    --degradeAtivo2: hsl(0, 100%, 88%);
+
+    --degradeInativo1: hsl(0, 80%, 86%);
+    --degradeInativo2: hsl(0, 74%, 74%);
+}
